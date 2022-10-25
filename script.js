@@ -67,6 +67,7 @@ const init = function () {
   operatorValue = "";
   displayResult.value = "";
   isCalculatorActive = true;
+  removeDisabledAttribute();
 };
 
 const removeLastCharacter = function () {
