@@ -66,6 +66,7 @@ const init = function () {
   resultValue = 0;
   operatorValue = "";
   displayResult.value = "";
+  isCalculatorActive = true;
 };
 
 const removeLastCharacter = function () {
